@@ -1,0 +1,12 @@
+{
+    "compilerOptions": {
+        "target": "ES2022", //versão
+        "outDir": "./dist/js", //destino de criação dos arquivos JS
+        "noEmitOnError": true, //Não criar arquivos js caso tenha erros no arquivo TS
+    },
+
+    "include":[
+        "./src/**/*" //local onde ele deve pegar os arquivos TS
+    ]
+
+}
